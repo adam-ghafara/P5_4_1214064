@@ -115,10 +115,12 @@
             // 
             // fillBirth
             // 
+            this.fillBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.fillBirth.Location = new System.Drawing.Point(378, 118);
             this.fillBirth.Name = "fillBirth";
             this.fillBirth.Size = new System.Drawing.Size(180, 20);
             this.fillBirth.TabIndex = 6;
+            this.fillBirth.Value = new System.DateTime(2022, 10, 24, 0, 0, 0, 0);
             // 
             // gbclass
             // 
